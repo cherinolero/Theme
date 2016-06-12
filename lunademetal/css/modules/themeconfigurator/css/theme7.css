@@ -1,0 +1,25 @@
+.marcado, 
+.sf-menu > li.sfHover > a, .sf-menu > li > a:hover, .sf-menu > li.sfHoverForce > a, .sf-menu > li > ul > li > a:hover, 
+#contact-link a:hover, #contact-link a.active, ul.product_list .product-name:hover, 
+#languages-block-top:hover div.current, #languages-block-top:hover div.current:after,
+#currencies-block-top div.current:hover, #currencies-block-top div.current.active, 
+#currencies-block-top div.current:hover:after, #currencies-block-top div.current.active:after,
+ul.product_list.grid > li .product-container .button-container a:hover, 
+ul.product_list .functional-buttons div a:hover, ul.product_list .functional-buttons div label:hover, 
+.header_user_info a:hover, .header_user_info a.active, 
+.price.product-price, .footer-container #footer a:hover, 
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
+.special-price, td.cart_unit .price, td.cart_total .price, #home-page-tabs > li.active a, #home-page-tabs > li a:hover, 
+ul.step li.step_current span, #layer_cart .layer_cart_product h2, .breadcrumb_wrapper a:hover, 
+.our_price_display {
+  color: #317081;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, span.sale-label, 
+ul.product_list .product-image-container:hover .quick-view:hover, ul.product_list .product-image-container:hover .info-view:hover,
+#social_block ul li:hover,
+#cmsinfo_block em, .button.button-small:hover, .button.button-medium:hover, .button.exclusive-medium span:hover span, .button.lnk_view:hover, 
+.price-percent-reduction, .box-info-product .exclusive span, #reduction_percent, #reduction_amount, 
+ul.product_list .product-image-container .quick-view {
+  background: #317081;
+}

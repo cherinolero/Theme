@@ -1,0 +1,14 @@
+.header_user_info {
+  text-align: center;
+  clear:both; }
+  .header_user_info a {
+    color: #000;
+    display: block;
+    padding: 7px 10px;
+    cursor: pointer;
+    line-height: 18px; }
+    @media (max-width: 479px) {
+      .header_user_info a {
+        font-size: 11px; } }
+    .header_user_info a:hover, .header_user_info a.active {
+       }

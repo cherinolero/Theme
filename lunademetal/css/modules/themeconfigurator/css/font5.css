@@ -1,0 +1,5 @@
+@import url('//fonts.googleapis.com/css?family=Vollkorn');
+
+.sf-menu > li > a, .shopping_cart > a:first-child b, .footer-container #footer h4, .block .title_block, .block h4, h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5, #home-page-tabs > li a, .button.lnk_view, .price-percent-reduction, .price.product-price, .sf-menu > li > ul > li > a, .box-info-product .exclusive span, .cat-title {
+	font-family: 'Vollkorn', sans-serif !important;
+}
