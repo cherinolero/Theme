@@ -384,7 +384,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
-  line-height: 1.1; }
+  line-height: 1.4; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
   .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small {
     font-weight: normal;
@@ -3833,7 +3833,30 @@ td.visible-print {
   src: url("../font/fontawesome-webfont.eot?#iefix&v=3.2.1") format("embedded-opentype"), url("../font/fontawesome-webfont.woff?v=3.2.1") format("woff"), url("../font/fontawesome-webfont.ttf?v=3.2.1") format("truetype"), url("../font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1") format("svg");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+    font-family: 'danielregular';
+    src: url('../font/daniel-webfont.eot');
+    src: url('../font/daniel-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/daniel-webfont.woff2') format('woff2'),
+         url('../font/daniel-webfont.woff') format('woff'),
+         url('../font/daniel-webfont.ttf') format('truetype'),
+         url('../font/daniel-webfont.svg#danielregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
+@font-face {
+    font-family: 'danielbold';
+    src: url('../font/danielbd-webfont.eot');
+    src: url('../font/danielbd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/danielbd-webfont.woff2') format('woff2'),
+         url('../font/danielbd-webfont.woff') format('woff'),
+         url('../font/danielbd-webfont.ttf') format('truetype'),
+         url('../font/danielbd-webfont.svg#danielbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 /* FONT AWESOME CORE
  * -------------------------- */
 [class^="icon-"],
@@ -5855,7 +5878,8 @@ span.sale-label {
   border-top: 1px solid #E6E6E6; }
   @media (min-width: 768px) {
     #home-page-tabs {
-      margin: 0 0 0 -18px; } }
+      margin: 0 0 0 -18px; 
+	  display: none} }
   #home-page-tabs > li {
     margin-top: -1px;
     margin-bottom: 0; }
@@ -5914,7 +5938,7 @@ span.sale-label {
   padding: 0 0 14px; }
 #left_column .title_block {
 	padding: 0 0 6px 0;
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 20px;
 	font-weight: bold;
 	margin: 18px 0 10px 0;
@@ -5956,8 +5980,7 @@ span.sale-label {
     .block .list-block {
       margin-top: 0; } }
   .block .list-block li {
-    padding: 5px 0 6px 20px;
-    border-top: 1px solid #d6d4d4; }
+    padding: 5px 0 6px 20px; }
     .block .list-block li a i {
       display: none; }
     .block .list-block li a:before {
@@ -6010,16 +6033,15 @@ span.sale-label {
   padding: 1px 6px; }
 
 .page-heading {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: lighter;
   color: #1B1A18;
   padding: 0 0 17px;
-  text-transform: uppercase;
   font-style: normal;
   margin-bottom: 15px;
   overflow: hidden; }
   .page-heading span.heading-counter {
-    font-size: 12px;
+    font-size: 25px;
     float: right;
     color: #1B1A18;
     text-transform: none;
@@ -6112,8 +6134,8 @@ ul.footer_links {
     .content_sortPagiBar .display li a,
     .content_sortPagiBar .display_m li a {
       color: gray;
-      font-size: 11px;
-      line-height: 14px;
+      font-size: 14px;
+      line-height: 16px;
       cursor: pointer; }
       .content_sortPagiBar .display li a i,
       .content_sortPagiBar .display_m li a i {

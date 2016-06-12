@@ -54,14 +54,14 @@ ul.sf-menu > li {
         .sf-menu > li span.active:after {
           content: "\f068"; } }
   .sf-menu > li > a {
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 17px;
+    font-weight: normal;
     font-style: normal;
     text-transform: uppercase;
     color: #000;
     display: block;
     padding: 0 14px;
-    line-height: 35px; }
+    line-height: 37px; }
   .sf-menu > li.sfHover > a,
   .sf-menu > li > a:hover, .sf-menu > li.sfHoverForce > a {
      }
